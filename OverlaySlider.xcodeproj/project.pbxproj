@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		177A0783192C6B8200861A72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177A0782192C6B8200861A72 /* Foundation.framework */; };
+		177A0785192C6B8200861A72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177A0784192C6B8200861A72 /* CoreGraphics.framework */; };
+		177A0787192C6B8200861A72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177A0786192C6B8200861A72 /* UIKit.framework */; };
+		177A078D192C6B8200861A72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 177A078B192C6B8200861A72 /* InfoPlist.strings */; };
+		177A078F192C6B8200861A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 177A078E192C6B8200861A72 /* main.m */; };
+		177A0793192C6B8200861A72 /* PDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 177A0792192C6B8200861A72 /* PDAppDelegate.m */; };
+		177A0796192C6B8200861A72 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177A0794192C6B8200861A72 /* Main_iPhone.storyboard */; };
+		177A0799192C6B8200861A72 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177A0797192C6B8200861A72 /* Main_iPad.storyboard */; };
+		177A079C192C6B8200861A72 /* PDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 177A079B192C6B8200861A72 /* PDViewController.m */; };
+		177A079E192C6B8200861A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177A079D192C6B8200861A72 /* Images.xcassets */; };
+		177A07A5192C6B8200861A72 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177A07A4192C6B8200861A72 /* XCTest.framework */; };
+		177A07A6192C6B8200861A72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177A0782192C6B8200861A72 /* Foundation.framework */; };
+		177A07A7192C6B8200861A72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177A0786192C6B8200861A72 /* UIKit.framework */; };
+		177A07AF192C6B8200861A72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 177A07AD192C6B8200861A72 /* InfoPlist.strings */; };
+		177A07B1192C6B8200861A72 /* OverlaySliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 177A07B0192C6B8200861A72 /* OverlaySliderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		177A07A8192C6B8200861A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 177A0777192C6B8200861A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 177A077E192C6B8200861A72;
+			remoteInfo = OverlaySlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		177A077F192C6B8200861A72 /* OverlaySlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlaySlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		177A0782192C6B8200861A72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		177A0784192C6B8200861A72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		177A0786192C6B8200861A72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		177A078A192C6B8200861A72 /* OverlaySlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverlaySlider-Info.plist"; sourceTree = "<group>"; };
+		177A078C192C6B8200861A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		177A078E192C6B8200861A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		177A0790192C6B8200861A72 /* OverlaySlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OverlaySlider-Prefix.pch"; sourceTree = "<group>"; };
+		177A0791192C6B8200861A72 /* PDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDAppDelegate.h; sourceTree = "<group>"; };
+		177A0792192C6B8200861A72 /* PDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDAppDelegate.m; sourceTree = "<group>"; };
+		177A0795192C6B8200861A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		177A0798192C6B8200861A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		177A079A192C6B8200861A72 /* PDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDViewController.h; sourceTree = "<group>"; };
+		177A079B192C6B8200861A72 /* PDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDViewController.m; sourceTree = "<group>"; };
+		177A079D192C6B8200861A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		177A07A3192C6B8200861A72 /* OverlaySliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverlaySliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		177A07A4192C6B8200861A72 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		177A07AC192C6B8200861A72 /* OverlaySliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverlaySliderTests-Info.plist"; sourceTree = "<group>"; };
+		177A07AE192C6B8200861A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		177A07B0192C6B8200861A72 /* OverlaySliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlaySliderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		177A077C192C6B8200861A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177A0785192C6B8200861A72 /* CoreGraphics.framework in Frameworks */,
+				177A0787192C6B8200861A72 /* UIKit.framework in Frameworks */,
+				177A0783192C6B8200861A72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177A07A0192C6B8200861A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177A07A5192C6B8200861A72 /* XCTest.framework in Frameworks */,
+				177A07A7192C6B8200861A72 /* UIKit.framework in Frameworks */,
+				177A07A6192C6B8200861A72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177A0776192C6B8200861A72 = {
+			isa = PBXGroup;
+			children = (
+				177A0788192C6B8200861A72 /* OverlaySlider */,
+				177A07AA192C6B8200861A72 /* OverlaySliderTests */,
+				177A0781192C6B8200861A72 /* Frameworks */,
+				177A0780192C6B8200861A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		177A0780192C6B8200861A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				177A077F192C6B8200861A72 /* OverlaySlider.app */,
+				177A07A3192C6B8200861A72 /* OverlaySliderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		177A0781192C6B8200861A72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				177A0782192C6B8200861A72 /* Foundation.framework */,
+				177A0784192C6B8200861A72 /* CoreGraphics.framework */,
+				177A0786192C6B8200861A72 /* UIKit.framework */,
+				177A07A4192C6B8200861A72 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		177A0788192C6B8200861A72 /* OverlaySlider */ = {
+			isa = PBXGroup;
+			children = (
+				177A0791192C6B8200861A72 /* PDAppDelegate.h */,
+				177A0792192C6B8200861A72 /* PDAppDelegate.m */,
+				177A0794192C6B8200861A72 /* Main_iPhone.storyboard */,
+				177A0797192C6B8200861A72 /* Main_iPad.storyboard */,
+				177A079A192C6B8200861A72 /* PDViewController.h */,
+				177A079B192C6B8200861A72 /* PDViewController.m */,
+				177A079D192C6B8200861A72 /* Images.xcassets */,
+				177A0789192C6B8200861A72 /* Supporting Files */,
+			);
+			path = OverlaySlider;
+			sourceTree = "<group>";
+		};
+		177A0789192C6B8200861A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				177A078A192C6B8200861A72 /* OverlaySlider-Info.plist */,
+				177A078B192C6B8200861A72 /* InfoPlist.strings */,
+				177A078E192C6B8200861A72 /* main.m */,
+				177A0790192C6B8200861A72 /* OverlaySlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		177A07AA192C6B8200861A72 /* OverlaySliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				177A07B0192C6B8200861A72 /* OverlaySliderTests.m */,
+				177A07AB192C6B8200861A72 /* Supporting Files */,
+			);
+			path = OverlaySliderTests;
+			sourceTree = "<group>";
+		};
+		177A07AB192C6B8200861A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				177A07AC192C6B8200861A72 /* OverlaySliderTests-Info.plist */,
+				177A07AD192C6B8200861A72 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		177A077E192C6B8200861A72 /* OverlaySlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177A07B4192C6B8200861A72 /* Build configuration list for PBXNativeTarget "OverlaySlider" */;
+			buildPhases = (
+				177A077B192C6B8200861A72 /* Sources */,
+				177A077C192C6B8200861A72 /* Frameworks */,
+				177A077D192C6B8200861A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverlaySlider;
+			productName = OverlaySlider;
+			productReference = 177A077F192C6B8200861A72 /* OverlaySlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		177A07A2192C6B8200861A72 /* OverlaySliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177A07B7192C6B8200861A72 /* Build configuration list for PBXNativeTarget "OverlaySliderTests" */;
+			buildPhases = (
+				177A079F192C6B8200861A72 /* Sources */,
+				177A07A0192C6B8200861A72 /* Frameworks */,
+				177A07A1192C6B8200861A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				177A07A9192C6B8200861A72 /* PBXTargetDependency */,
+			);
+			name = OverlaySliderTests;
+			productName = OverlaySliderTests;
+			productReference = 177A07A3192C6B8200861A72 /* OverlaySliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		177A0777192C6B8200861A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Paulius Darguans";
+				TargetAttributes = {
+					177A07A2192C6B8200861A72 = {
+						TestTargetID = 177A077E192C6B8200861A72;
+					};
+				};
+			};
+			buildConfigurationList = 177A077A192C6B8200861A72 /* Build configuration list for PBXProject "OverlaySlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 177A0776192C6B8200861A72;
+			productRefGroup = 177A0780192C6B8200861A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				177A077E192C6B8200861A72 /* OverlaySlider */,
+				177A07A2192C6B8200861A72 /* OverlaySliderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		177A077D192C6B8200861A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177A0799192C6B8200861A72 /* Main_iPad.storyboard in Resources */,
+				177A079E192C6B8200861A72 /* Images.xcassets in Resources */,
+				177A0796192C6B8200861A72 /* Main_iPhone.storyboard in Resources */,
+				177A078D192C6B8200861A72 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177A07A1192C6B8200861A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177A07AF192C6B8200861A72 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		177A077B192C6B8200861A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177A0793192C6B8200861A72 /* PDAppDelegate.m in Sources */,
+				177A079C192C6B8200861A72 /* PDViewController.m in Sources */,
+				177A078F192C6B8200861A72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177A079F192C6B8200861A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177A07B1192C6B8200861A72 /* OverlaySliderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		177A07A9192C6B8200861A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 177A077E192C6B8200861A72 /* OverlaySlider */;
+			targetProxy = 177A07A8192C6B8200861A72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		177A078B192C6B8200861A72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177A078C192C6B8200861A72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		177A0794192C6B8200861A72 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177A0795192C6B8200861A72 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		177A0797192C6B8200861A72 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177A0798192C6B8200861A72 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		177A07AD192C6B8200861A72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177A07AE192C6B8200861A72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		177A07B2192C6B8200861A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		177A07B3192C6B8200861A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		177A07B5192C6B8200861A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverlaySlider/OverlaySlider-Prefix.pch";
+				INFOPLIST_FILE = "OverlaySlider/OverlaySlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		177A07B6192C6B8200861A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverlaySlider/OverlaySlider-Prefix.pch";
+				INFOPLIST_FILE = "OverlaySlider/OverlaySlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		177A07B8192C6B8200861A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OverlaySlider.app/OverlaySlider";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverlaySlider/OverlaySlider-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OverlaySliderTests/OverlaySliderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		177A07B9192C6B8200861A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OverlaySlider.app/OverlaySlider";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverlaySlider/OverlaySlider-Prefix.pch";
+				INFOPLIST_FILE = "OverlaySliderTests/OverlaySliderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		177A077A192C6B8200861A72 /* Build configuration list for PBXProject "OverlaySlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177A07B2192C6B8200861A72 /* Debug */,
+				177A07B3192C6B8200861A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177A07B4192C6B8200861A72 /* Build configuration list for PBXNativeTarget "OverlaySlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177A07B5192C6B8200861A72 /* Debug */,
+				177A07B6192C6B8200861A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		177A07B7192C6B8200861A72 /* Build configuration list for PBXNativeTarget "OverlaySliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177A07B8192C6B8200861A72 /* Debug */,
+				177A07B9192C6B8200861A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 177A0777192C6B8200861A72 /* Project object */;
+}
