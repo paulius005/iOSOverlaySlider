@@ -22,6 +22,7 @@
 		177A07A7192C6B8200861A72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177A0786192C6B8200861A72 /* UIKit.framework */; };
 		177A07AF192C6B8200861A72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 177A07AD192C6B8200861A72 /* InfoPlist.strings */; };
 		177A07B1192C6B8200861A72 /* OverlaySliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 177A07B0192C6B8200861A72 /* OverlaySliderTests.m */; };
+		177A07BC192C6BD000861A72 /* PDOverlaySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 177A07BB192C6BD000861A72 /* PDOverlaySlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		177A07AC192C6B8200861A72 /* OverlaySliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverlaySliderTests-Info.plist"; sourceTree = "<group>"; };
 		177A07AE192C6B8200861A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		177A07B0192C6B8200861A72 /* OverlaySliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlaySliderTests.m; sourceTree = "<group>"; };
+		177A07BA192C6BD000861A72 /* PDOverlaySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDOverlaySlider.h; sourceTree = "<group>"; };
+		177A07BB192C6BD000861A72 /* PDOverlaySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDOverlaySlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		177A0776192C6B8200861A72 = {
 			isa = PBXGroup;
 			children = (
+				177A07BA192C6BD000861A72 /* PDOverlaySlider.h */,
+				177A07BB192C6BD000861A72 /* PDOverlaySlider.m */,
 				177A0788192C6B8200861A72 /* OverlaySlider */,
 				177A07AA192C6B8200861A72 /* OverlaySliderTests */,
 				177A0781192C6B8200861A72 /* Frameworks */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				177A0793192C6B8200861A72 /* PDAppDelegate.m in Sources */,
+				177A07BC192C6BD000861A72 /* PDOverlaySlider.m in Sources */,
 				177A079C192C6B8200861A72 /* PDViewController.m in Sources */,
 				177A078F192C6B8200861A72 /* main.m in Sources */,
 			);
