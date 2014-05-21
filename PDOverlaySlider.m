@@ -15,6 +15,10 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        _maximumValue = 10.0;
+        _minimumValue = 0.0;
+        _upperValue = 8.0;
+        _lowerValue = 2.0;
     }
     return self;
 }

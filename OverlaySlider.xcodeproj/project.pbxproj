@@ -56,8 +56,8 @@
 		177A07AC192C6B8200861A72 /* OverlaySliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverlaySliderTests-Info.plist"; sourceTree = "<group>"; };
 		177A07AE192C6B8200861A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		177A07B0192C6B8200861A72 /* OverlaySliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlaySliderTests.m; sourceTree = "<group>"; };
-		177A07BA192C6BD000861A72 /* PDOverlaySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDOverlaySlider.h; sourceTree = "<group>"; };
-		177A07BB192C6BD000861A72 /* PDOverlaySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDOverlaySlider.m; sourceTree = "<group>"; };
+		177A07BA192C6BD000861A72 /* PDOverlaySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDOverlaySlider.h; path = ../PDOverlaySlider.h; sourceTree = "<group>"; };
+		177A07BB192C6BD000861A72 /* PDOverlaySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDOverlaySlider.m; path = ../PDOverlaySlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +87,6 @@
 		177A0776192C6B8200861A72 = {
 			isa = PBXGroup;
 			children = (
-				177A07BA192C6BD000861A72 /* PDOverlaySlider.h */,
-				177A07BB192C6BD000861A72 /* PDOverlaySlider.m */,
 				177A0788192C6B8200861A72 /* OverlaySlider */,
 				177A07AA192C6B8200861A72 /* OverlaySliderTests */,
 				177A0781192C6B8200861A72 /* Frameworks */,
@@ -119,6 +117,8 @@
 		177A0788192C6B8200861A72 /* OverlaySlider */ = {
 			isa = PBXGroup;
 			children = (
+				177A07BA192C6BD000861A72 /* PDOverlaySlider.h */,
+				177A07BB192C6BD000861A72 /* PDOverlaySlider.m */,
 				177A0791192C6B8200861A72 /* PDAppDelegate.h */,
 				177A0792192C6B8200861A72 /* PDAppDelegate.m */,
 				177A0794192C6B8200861A72 /* Main_iPhone.storyboard */,
